@@ -1,0 +1,17 @@
+.controls {
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.button {
+  margin-left: 10px;
+  width: 192px;
+  height: 45px;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: var(--main-line-height);
+
+  border-color: #c4c4c4;
+  background-color: #c4c4c4;
+}

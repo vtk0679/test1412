@@ -1,0 +1,65 @@
+.header {
+  height: 80px;
+
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.mainNav {
+  display: flex;
+  width: 247px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: var(--main-font-weight);
+  color: #000000;
+}
+
+.addButton {
+  max-height: 38px;
+  padding: 10px 28px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.17;
+
+  color: #000000;
+  background-color: #c4c4c4;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: var(--container-width);
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .header {
+    height: 60px;
+  }
+  .container {
+    position: relative;
+  }
+
+  .addButton {
+    position: absolute;
+    right: 16px;
+  }
+}

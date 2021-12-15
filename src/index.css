@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: var(--main-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+
+  transition: background-color 250ms ease;
+}
+
+button:hover {
+  background-color: #b9b8b8;
+}
+
+:root {
+  --items-set-gap: 32px;
+  --container-width: 1268px;
+
+  --main-font: "Roboto", sans-serif;
+  --main-letter-spacing: 0.03em;
+  --main-font-weight: 400;
+  --main-font-size: 18px;
+  --main-line-height: 1.17;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}

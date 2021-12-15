@@ -1,0 +1,39 @@
+.cart {
+  width: 390px;
+  height: 495px;
+
+  background-color: #f8f8f8;
+}
+
+.imgThumb {
+  width: 390px;
+  height: 234px;
+  overflow: hidden;
+}
+
+.img {
+  display: block;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  height: 130px;
+  width: 333px;
+  line-height: 1.39;
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+}
+
+.title {
+  margin-top: 35px;
+  margin-bottom: 26px;
+  margin-left: 28px;
+  line-height: 1.17;
+  font-size: 24px;
+  font-weight: 700;
+}
